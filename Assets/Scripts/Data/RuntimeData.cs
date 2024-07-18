@@ -1,6 +1,3 @@
-
-
-public class RuntimeData 
+public class RuntimeData
 {
-    
 }

@@ -1,9 +1,14 @@
+using TMPro;
 using UnityEngine;
 
-public class SceneData : MonoBehaviour
+namespace Data
 {
-    public Transform playerSpawnPoint;
+    public class SceneData : MonoBehaviour
+    {
+        public Transform PlayerSpawnPoint;
     
-    [HideInInspector]
-    public Transform playerTransform;
+        public TextMeshProUGUI DriftScoreText;
+    
+        [HideInInspector] public Transform PlayerTransform;
+    }
 }
